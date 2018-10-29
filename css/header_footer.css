@@ -1,0 +1,136 @@
+/* Style the navbar */
+.navigationbar {
+  z-index: 1;
+  overflow: hidden;
+  background-color: #afafaf;
+}
+
+/* Navbar links */
+.navigationbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.backToTop {
+ overflow: hidden;
+ width: 100%;
+}
+
+.backToTop a {
+  display: block;
+  color: #afafaf;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.stickyDown {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+body{
+
+ margin-left: 0;
+ margin-right: 0;
+}
+
+h1{
+ text-align: center;
+ font-family: sofia;
+ font-size: 23px;
+}
+
+.parHeader{
+
+ text-align: left;
+ font-family: serif;
+ text-decoration: underline;
+ font-size: 18px;
+}
+
+.paragraph{
+ text-align: left;
+ margin-left: 20px;
+ font-size: 16px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.mainHeader h1 {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mainHeader {
+    height: 100px;
+    position: relative;
+    background-image: url(camera.jpg);
+    background-repeat: repeat-x;
+}
