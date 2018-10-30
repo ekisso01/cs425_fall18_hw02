@@ -53,32 +53,6 @@
 }
 
 
-body{
-
- margin-left: 0;
- margin-right: 0;
-}
-
-h1{
- text-align: center;
- font-family: sofia;
- font-size: 23px;
-}
-
-.parHeader{
-
- text-align: left;
- font-family: serif;
- text-decoration: underline;
- font-size: 18px;
-}
-
-.paragraph{
- text-align: left;
- margin-left: 20px;
- font-size: 16px;
-}
-
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -120,17 +94,3 @@ h1{
   color: white;
 }
 
-.mainHeader h1 {
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.mainHeader {
-    height: 100px;
-    position: relative;
-    background-image: url(camera.jpg);
-    background-repeat: repeat-x;
-}

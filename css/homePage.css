@@ -1,0 +1,43 @@
+body{
+
+ margin-left: 0;
+ margin-right: 0;
+}
+
+h1{
+ text-align: center;
+ font-family: sofia;
+ font-size: 23px;
+}
+
+.parHeader{
+
+ text-align: center;
+ font-family: serif;
+ text-decoration: underline;
+ font-size: 18px;
+}
+
+.paragraph{
+ text-align: justify;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 16px;
+ width: 100%;
+ min-width:300px;
+ max-width:600px;
+}
+
+.mainHeader h1 {
+    text-indent: -2000px;
+}
+
+.mainHeader {
+    height: fit-content;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#imageBanner {
+   width: 100%;
+}
