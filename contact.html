@@ -28,44 +28,87 @@
   		<a href="contact.html">Contact</a>
 	</div>
 
-	
+	<table id="contactTable">
+		<tr>
+			<td class="title"> Address:</td>
+			<td>1 Panepistimiou, Aglatzia, Nicosia </td>
+		</tr>
+		<tr>
+		<td class="title"> Working hours:</td>
+		<td id="working"> Monday-Saturday: 09:30-20:00 <br> Sunday: 11:00-19:00</td>
+		</tr>
+		
+	</table>	
 	
 	
 <div class="cform">
 	<h3>Send us a message:<br> </h3>
 	<form class="contactForm">
-		Name: <br>
-		<input type="text" name="name" value="" id="infobox"><br><br>
-		Surname: <br>
-		<input type="text" name="surname" value="" id="infobox"><br><br>
-		email: <br>
-		<input type="E-mail" name="email" value="" id="infobox"><br><br>
-		Message subject: <br>
-		<input type="text" name="messubject" value="" id="infobox"><br><br>
-		Message text: <br>
-		<input type="text" name="messtext" value="" id="infoboxText"><br><br>
-		Book a meeting (date and time): <br>
-  		<input type="datetime-local" name="bdaytime" id="infoboxMeeting"><br>
-  		<br>
-		<input type="submit" value="Submit" id="buttonSub"> <br>
+
+		<div class="row">
+			<div class="col-25">
+				<label>Name</label>
+			</div>
+		<div class="col-75">
+			<input type="text" placeholder="Your name..">
+		</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-25">
+				
+				<label>Surname</label>
+			</div>
+		<div class="col-75">
+			<input type="text" placeholder="Your surname..">
+		</div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-25">
+				
+				<label>E-mail</label>
+			</div>
+		<div class="col-75">
+			<input type="text" placeholder="Your e-mail.." >
+		</div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-25">
+				
+				<label>Message Subject</label>
+			</div>
+		<div class="col-75">
+			<input type="text" placeholder="Message subject..">
+		</div>
+		</div>
+		<br><br>
+		<div class="row">
+      			<div class="col-25">
+        			<label>Message Text</label>
+      			</div>
+      		<div class="col-75">
+        	<textarea placeholder="Write something.." style="height:200px"></textarea>
+      		</div>
+    		</div>
+		<br><br>
+		<div class="row">
+      			<div class="col-25">
+        			<label>Book meeting <br>(date and time)</label>
+      			</div>
+      		<div class="col-75">
+        	<input type="datetime-local" id="infoboxMeeting"></textarea>
+      		</div>
+    		</div>
+		<br>
+  		<div class="row">
+      		<input type="submit" value="Submit">
+    		</div>
+		
 	</form>
 	
 </div>
-
-<table id="contactTable">
-	<tr>
-		<td class="title"> Address:</td>
-		<td>1 Panepistimiou, Aglatzia, Nicosia </td>
-	</tr>
-	<tr>
-		<td class="title"> Working hours:</td>
-		<td id="working"> Monday-Saturday: 09:30-20:00 <br> Sunday: 11:00-19:00</td>
-	</tr>
-	<tr>
-		
-	</tr>
-
-	</table>
 
 
 	<div class="mediaIcons">
