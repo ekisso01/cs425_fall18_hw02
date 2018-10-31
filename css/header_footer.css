@@ -4,7 +4,10 @@
   overflow: hidden;
   background-color: #afafaf;
 }
-
+body{
+ margin-left: 0;
+ margin-right: 0; 
+}
 /* Navbar links */
 .navigationbar a {
   float: left;
