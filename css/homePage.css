@@ -1,15 +1,17 @@
 h1{
  text-align: center;
- font-family: sofia;
- font-size: 23px;
+ font-family: 'Content';
+ padding-top: 70px;
+ font-size: 58px;
+ margin-block-start: 0em;
+ margin-block-end: 0em;
+ color: aliceblue;
 }
-
-.parHeader{
-
+h2, h3, .parHeader{
  text-align: center;
  font-family: serif;
- text-decoration: underline;
  font-size: 18px;
+ font-style: italic;
 }
 
 .paragraph{
@@ -22,14 +24,12 @@ h1{
  max-width:600px;
 }
 
-.mainHeader h1 {
-    text-indent: -5000px;
-}
 
 .mainHeader {
-    height: fit-content;
-    position: relative;
-    background-repeat: no-repeat;
+ background-image: url("../images/top-banner.png");
+ height: 200px;
+ position: relative;
+ margin-bottom: 35px;
 }
 
 #imageBanner {
